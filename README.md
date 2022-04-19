@@ -13,7 +13,10 @@ ssh -L $PORT:127.0.0.1:$PORT <your_HMS_ID>@o2.hms.harvard.edu
 
 Load modules
 ```
-module load gcc/6.2.0 R/4.1.1 git/2.9.5 rstudio_launcher/1.0
+module load rstudio_launcher/1.0
+module load gcc/6.2.0
+module load R/4.1.1
+module load git/2.9.5
 ```
 Launch rstudio
 ```
