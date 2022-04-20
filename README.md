@@ -6,7 +6,7 @@
 
 ### Connect to O2
 ```
-ssh -L $PORT:127.0.0.1:$PORT <your_HMS_ID>@o2.hms.harvard.edu
+ssh -Y -L $PORT:127.0.0.1:$PORT <your_HMS_ID>@o2.hms.harvard.edu
 ```
 
 ### Running RStudio (IDE) on O2
